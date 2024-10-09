@@ -1,0 +1,56 @@
+#footer_area {
+  background: $bkColor;
+  position: relative;
+  .top{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    i{
+      width: 30px;
+      height: 30px;
+      background: $pColor;
+      color: $whiteColor;
+      display: block;
+      padding-top: 8px;
+      border-radius: 5px;
+      transition: 0.3s;
+      &:hover{
+        background: $sColor;
+      }
+    }
+  }
+  .logo_area {
+    width: 200px;
+    margin: 0 auto 20px;
+  }
+  .botom_social_area {
+    text-align: center;
+    margin-bottom: 20px;
+    li {
+      margin-left: 15px;
+      a {
+        display: block;
+        background: $sColor;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        color: $bkColor;
+        text-align: center;
+        align-content: center;
+        border-radius: 25px;
+        &:hover {
+          background: $bkColor;
+          color: $sColor;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    color: $whiteColor;
+    p {
+      font-size: 13px;
+    }
+  }
+}

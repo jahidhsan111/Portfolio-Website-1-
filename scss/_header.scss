@@ -1,0 +1,58 @@
+// $small: 200px;
+// $medium: 767px;
+
+#header_area {
+  // Top Header Area Style
+  .top_header_area {
+    background: $pColor;
+    padding: $paddingSM;
+    position: relative;
+    .mobile_bars {
+      display: none;
+    }
+    p {
+      font: {
+        size: 14px;
+        weight: $fontWMD;
+      }
+      color: $whiteColor;
+      margin: 8px 0 0;
+      i {
+        display: inline-block;
+        margin-right: 8px;
+      }
+    }
+  }
+  // Main Header Style
+  .main_header {
+    background: $whiteColor;
+    padding: 25px 0;
+    .logo_area {
+      flex-basis: 30%;
+    }
+    .main_menu {
+      flex-basis: 70%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      ul {
+        text-align: right;
+        display: flex;
+        justify-content: end;
+        li {
+          margin-left: 25px;
+          a {
+            color: $bkColor;
+            font: {
+              size: 15px;
+              weight: $fontWMD;
+            }
+            &:hover {
+              color: $pColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}

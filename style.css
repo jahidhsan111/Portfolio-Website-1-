@@ -1,0 +1,47 @@
+/*================================
+custom css
+ =================================*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+.inner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center;
+}

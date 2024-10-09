@@ -1,0 +1,120 @@
+// Color
+$pColor: #eb7966;
+$sColor: #f4c9c2;
+$bgColor: #f9ebea;
+$whiteColor: #fff;
+$bkColor: #11184f;
+
+// Font Weight
+$fontWSM: 400;
+$fontWMD: 600;
+$fontWXL: 800;
+
+body,
+p {
+  font: {
+    size: 16px;
+    weight: $fontWSM;
+  }
+}
+
+p {
+  margin: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fontWMD;
+  margin: 0 0 15px;
+  line-height: 1.2em;
+}
+
+// paddings
+$paddingSM: 10px 0;
+.paddingXL {
+  padding: 60px 0;
+}
+
+// Main Width
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+//Social Area Style
+.social_area {
+  ul {
+    text-align: right;
+    li {
+      margin-left: 15px;
+      a {
+        display: block;
+        background: $sColor;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        color: $bkColor;
+        text-align: center;
+        align-content: center;
+        border-radius: 25px;
+        &:hover {
+          background: $whiteColor;
+          color: $sColor;
+        }
+      }
+    }
+  }
+  i.fa-solid{
+       display: block;
+        background: $sColor;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        color: $bkColor;
+        text-align: center;
+        align-content: center;
+        border-radius: 25px;
+        transition: 0.3s;
+        &:hover {
+          background: $bkColor;
+          color: $sColor;
+  }
+}
+}
+
+// Call To Action Button
+.btn-cta {
+  background: $pColor;
+  color: $whiteColor;
+  display: inline-block;
+  padding: 12px 25px;
+  font-weight: $fontWMD;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  &:hover {
+    background: $bkColor;
+  }
+}
+
+// Title & Sub Title Style
+.title {
+  font-size: 60px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.sub-title {
+  font: {
+    size: 25px;
+    weight: $fontWMD;
+  }
+  line-height: 1em;
+  margin-bottom: 0;
+}
+//Margin
+.m-top {
+  margin-top: 45px;
+}
